@@ -11,7 +11,7 @@ public class ContinueGame : MonoBehaviour
 
     public void Start()
     {
-        AudioSource newSound = Instantiate(_deathSound, transform.position, Quaternion.identity);
+       
         Cursor.visible = true;
     }
 
